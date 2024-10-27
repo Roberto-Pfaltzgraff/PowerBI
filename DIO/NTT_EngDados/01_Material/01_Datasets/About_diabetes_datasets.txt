@@ -1,0 +1,113 @@
+About Dataset
+=============
+This dataset provides detailed medical diagnostic measurements that were collected to predict the onset of diabetes based on several health factors.
+It consists of 768 records of female patients, each characterized by 8 health-related attributes.
+The Outcome variable indicates whether the patient has diabetes (1) or not (0).
+The dataset can be used to train and test machine learning models for classification tasks related to diabetes prediction.
+
+Dataset Columns:
+Pregnancies: Number of times the patient has been pregnant.
+Glucose: Plasma glucose concentration after a 2-hour oral glucose tolerance test.
+BloodPressure: Diastolic blood pressure (mm Hg).
+SkinThickness: Triceps skinfold thickness (mm).
+Insulin: 2-hour serum insulin (mu U/ml).
+BMI: Body mass index (weight in kg/(height in m)^2).
+DiabetesPedigreeFunction: A function that represents the patient’s diabetes pedigree (i.e., likelihood of diabetes based on family history).
+Age: Age of the patient (years).
+Outcome: Binary outcome (0 or 1) where 1 indicates the presence of diabetes and 0 indicates the absence.
+Usage:
+This dataset can be used for:
+
+Building classification models to predict diabetes onset.
+Exploratory data analysis to identify trends and correlations among health indicators.
+Feature engineering and feature selection for healthcare-related datasets.
+Source:
+This dataset is originally adapted from the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) and is widely used
+in machine learning research on healthcare and medical diagnostics.
+
+
+Details
+=======
+About this file
+
+Add Suggestion
+File: diabetes_dataset.csv
+Size: (Number of rows × Number of columns)
+Format: CSV (Comma-Separated Values)
+The dataset contains 768 rows and 9 columns, representing various health diagnostic metrics for predicting diabetes.
+Each row corresponds to a unique patient record, with features capturing key medical attributes.
+
+Columns:
+Pregnancies (Integer): Number of times the patient has been pregnant.
+Glucose (Integer): Plasma glucose concentration (mg/dL) after a 2-hour oral glucose tolerance test.
+BloodPressure (Integer): Diastolic blood pressure (mm Hg).
+SkinThickness (Integer): Triceps skinfold thickness (mm).
+Insulin (Integer): 2-hour serum insulin (mu U/ml).
+BMI (Float): Body mass index, defined as weight in kg/(height in m)^2.
+DiabetesPedigreeFunction (Float): A score indicating genetic predisposition to diabetes based on family history.
+Age (Integer): Age of the patient (in years).
+Outcome (Binary): Target variable where 1 indicates diabetes, and 0 indicates no diabetes.
+
+
+
+-----------------------Portuguese------------------------------------------
+
+Sobre o conjunto de dados
+=========================
+Este conjunto de dados fornece medições detalhadas de diagnóstico médico que foram coletadas para prever o início do diabetes com base em vários fatores de saúde.
+Ele consiste em 768 registros de pacientes do sexo feminino, cada um caracterizado por 8 atributos relacionados à saúde.
+A variável Outcome indica se o paciente tem diabetes (1) ou não (0).
+O conjunto de dados pode ser usado para treinar e testar modelos de aprendizado de máquina para tarefas de classificação relacionadas à previsão de diabetes.
+
+Colunas do conjunto de dados:
+Gestações: Número de vezes que a paciente engravidou.
+Glicose: Concentração plasmática de glicose após um teste oral de tolerância à glicose de 2 horas.
+Pressão arterial: Pressão arterial diastólica (mm Hg).
+Espessura da pele: Espessura da prega cutânea do tríceps (mm).
+Insulina: insulina sérica de 2 horas (mu U/ml).
+IMC: Índice de massa corporal (peso em kg/(altura em m)^2).
+DiabetesPedigreeFunction: Uma função que representa o pedigree de diabetes do paciente (ou seja, probabilidade de diabetes com base no histórico familiar).
+Idade: Idade do paciente (anos).
+Resultado: Resultado binário (0 ou 1) onde 1 indica a presença de diabetes e 0 indica a ausência.
+Uso:
+Este conjunto de dados pode ser usado para:
+
+Construindo modelos de classificação para prever o início do diabetes.
+Análise exploratória de dados para identificar tendências e correlações entre indicadores de saúde.
+Engenharia de recursos e seleção de recursos para conjuntos de dados relacionados à saúde.
+Fonte:
+Este conjunto de dados foi originalmente adaptado do Instituto Nacional de Diabetes e Doenças Digestivas e Renais (NIDDK) e é amplamente utilizado
+em pesquisas de aprendizado de máquina em saúde e diagnósticos médicos.
+
+
+Detalhes
+========
+Sobre este arquivo
+
+Adicionar sugestão
+Arquivo:diabetes_dataset.csv
+Tamanho : (Número de linhas × Número de colunas)
+Formato : CSV (Valores separados por vírgula)
+O conjunto de dados contém 768 linhas e 9 colunas, representando várias métricas de diagnóstico de saúde para prever diabetes.
+Cada linha corresponde a um registro de paciente exclusivo, com recursos capturando atributos médicos importantes.
+
+Colunas:
+Gravidezes ( Inteiro ): Número de vezes que a paciente engravidou.
+Glicose ( Inteiro ): Concentração plasmática de glicose (mg/dL) após um teste oral de tolerância à glicose de 2 horas.
+Pressão arterial ( inteiro ): Pressão arterial diastólica (mm Hg).
+SkinThickness ( Inteiro ): Espessura da prega cutânea do tríceps (mm).
+Insulina ( Inteiro ): insulina sérica de 2 horas (mu U/ml).
+IMC ( Float ): Índice de massa corporal, definido como peso em kg/(altura em m)^2.
+DiabetesPedigreeFunction ( Float ): Uma pontuação que indica predisposição genética para diabetes com base no histórico familiar.
+Idade ( Inteiro ): Idade do paciente (em anos).
+Resultado ( binário ): variável de destino onde 1 indica diabetes e 0 indica ausência de diabetes.
+
+Fonte:
+https://www.kaggle.com/datasets/hasibur013/diabetes-dataset?resource=download
+
+
+
+---
+Pesquisa paralela:
+Diabetes Pedigree Function (DPF) => são valores que medem a tendência ao desenvolvimento de diabetes com base nas relações genéticas do indivíduo.
+Fonte: http://www.leg.ufpr.br/~eferreira/CE064/work5.html
