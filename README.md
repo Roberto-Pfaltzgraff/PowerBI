@@ -1,4 +1,4 @@
-# Estudos da plataforma MS Power BI
+# Estudo da plataforma MS Power BI
 
 ## 💻Objetivo:
 
