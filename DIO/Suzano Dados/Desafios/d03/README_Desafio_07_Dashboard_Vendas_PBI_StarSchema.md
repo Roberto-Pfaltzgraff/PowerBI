@@ -35,5 +35,5 @@ A ferramenta a ser utilizada será: **Microsoft Power BI**.
 > ## 📋**Entrega**:  
 > 🎯Arquivo fonte do Power BI:  
 > [Desafio_03_DIOeSuzano_PowerBI-DashboardVendasUtilizandoStarSchema.pbix](./Desafio_03_DIOeSuzano_PowerBI-DashboardVendasUtilizandoStarSchema.pbix)  
-Dashboard** de Vendas com *Power BI* Utilizando _**Star Schema
+  
  ❗👏🎉Fim do Desafio 07
