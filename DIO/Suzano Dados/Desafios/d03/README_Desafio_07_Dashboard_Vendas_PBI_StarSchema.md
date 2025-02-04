@@ -2,9 +2,9 @@
 ### Desafio 07 - **Dashboard** de Vendas com *Power BI* Utilizando _**Star Schema**_  
     
 ## 🎯Objetivo:
-Confeccionar um **Dashboard** em Power BI, conforme *Descrição do Desafio* na **Apresentação do Desafio**.  
+Criar um **Diagrama Dimensional Star Schema**, pode ser no **MySQL Workbench**, conforme *Descrição do Desafio* na **Apresentação do Desafio**.  
 O intuito é aplicar o conhecimento compartilhado até essa etapa do curso.  
-A ferramenta a ser utilizada será: **Microsoft Power BI**.  
+A ferramenta a ser utilizada será: **MySQL Workbench**.  
 ![alt text](./imagens/img_DesafioAceito.png)
 
     
@@ -18,22 +18,22 @@ A ferramenta a ser utilizada será: **Microsoft Power BI**.
 > - ![Imagem_Modelo_Relacional.png](./insumos/Imagem_Modelo_Relacional.png)  
   
 ### Objetivo:
-- Criação de uma instância na Azure para MySQL
-- Criar o Banco de Dados com base disponível no github
-- Integração do Power BI com MySQL no Azure 
-- Verificar problemas na base a fim de realizar a transformação dos dados
+- Criação de um *diagrama dimensional*, **Star Schema**
+- O foco da análise será os dados dos professores
+- O modelo deve permitir responder questões sobre o professor, cursos ministrados, departamento ao qual pertence, etc. 
+- Para criação da dimensão de tempo, considere que haja datas de oferecimento de curso/disciplina ou qual preferir no modelo relacional
    
 ## 🤓Desafio Feito😎! Minha resolução🎉🎉🎉:  
 >### 📝Check-List
->✅ 01) Criar conta e logar na Microsoft Power BI.  
->✅ 02) Obter dados das Fontes.  
+>✅ 01) Entender modelo de dados relacional disponibilizado.  
+>✅ 02) Identificar questões a serem respondidas com o modelo a ser criado.  
 >✅ 03) Transformar os dados. Processo de limpeza e transformação.  
->✅ 04) Modelo de Dados - Fazer o Modelo Dimensional.  
->✅ 05) Montar os visuais desejados.  
+>✅ 04) Definição da Tabela Fato.  
+>✅ 05) Definição das Tabelas Dimensão.  
   
   
 > ## 📋**Entrega**:  
-> 🎯Arquivo fonte do Power BI:  
-> [Desafio_03_DIOeSuzano_PowerBI-DashboardVendasUtilizandoStarSchema.pbix](./Desafio_03_DIOeSuzano_PowerBI-DashboardVendasUtilizandoStarSchema.pbix)  
+> 🎯Modelo dimensional **Star Schema**:  
+> ![Desafio_03_DIOeSuzano_PowerBI-Diagrama_Dimensional_StarSchema.png](./modelos/Desafio_03_DIOeSuzano_PowerBI-Diagrama_Dimensional_StarSchema.png)  
   
  ❗👏🎉Fim do Desafio 07
